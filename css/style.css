@@ -1,6 +1,21 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  /* width: 90%; */
+}
+
+/* For Vertical and Horizontal centralization */
+.centre {
+  /* position: absolute; Can also be `fixed` */
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  margin: 0 auto;
+  /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
 }
 
 /* BAMBI LOGO */
@@ -61,6 +76,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-bottom: 100px;
+  max-width: 90%;
 }
 
 /* TOUCH YELLOW STYLE */
@@ -269,6 +285,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
+  /* width: 90%; */
 }
 
 /* PARENT IPHONE STYLE */
@@ -287,7 +304,7 @@ body {
 /* PARENT BUTTON */
 .parent-btn {
   margin-top: 220px;
-  margin-left: 222px;
+  margin-left: 15%;
   margin-bottom: 40.02px;
   background-color: #fde016;
   border-radius: 12px;
@@ -301,7 +318,7 @@ body {
 }
 
 .star {
-  margin-left: 222px;
+  margin-left: 15%;
   margin-bottom: 48.02px;
 }
 
@@ -457,7 +474,7 @@ body {
   height: 596px;
   border-radius: 16px;
   margin-top: 212px;
-  margin-left: 101px;
+  margin-left: 122px;
 }
 
 /* SETTING STYLE */
@@ -507,7 +524,7 @@ body {
 
 /* RECTANGULAR GREEN IMAGE STYLE */
 .rectangle-green {
-  margin-left: 222px;
+  margin-left: 122px;
   width: 488px;
   height: 596px;
   border-radius: 16px;
@@ -560,7 +577,7 @@ body {
 
 /* BENEFICIARIES BUTTON STYLE */
 .beneficiaries-btn {
-  margin-left: 49px;
+  /* margin-left: 49px; */
   margin-bottom: 40.02px;
   background: #6fcf97;
   border-radius: 12px;
@@ -577,7 +594,7 @@ body {
 
 /* GREEN STAR */
 .green-star {
-  margin-left: 53.86px;
+  /* margin-left: 53.86px; */
   margin-bottom: 48.02px;
 }
 
@@ -700,17 +717,14 @@ body {
 .bottom-container {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  /* width: 90%; */
   height: 511px;
   background-color: #fcdf17;
 }
 
 /* JOIN  STYLE */
 .join {
-  margin-left: 323px;
-  margin-top: 128px;
-  width: 794px;
-  height: 76px;
+  margin-top: 40px;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
@@ -726,10 +740,23 @@ body {
   margin-right: 15px;
 }
 
+.bambi-centre {
+  /* position: absolute; Can also be `fixed` */
+  /* left: 50%;
+  right: 50%;
+  top: 32px;
+  bottom: 50%; */
+  margin: 0 auto;
+  /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
 /* GET BAMBI BUTTON STYLE */
 .bambi-btn {
-  margin-top: 100px;
-  margin-left: 558px;
+  /* margin-top: 100px;
+  margin-left: 558px; */
   background: #000000;
   border-radius: 64px;
   font-family: Arial;
