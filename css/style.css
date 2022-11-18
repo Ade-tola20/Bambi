@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* width: 90%; */
 }
 
@@ -34,7 +34,7 @@ body {
   flex-direction: column;
 }
 
-/* HEADING STYLE */
+/* HERO TEXT STYLES */
 .easier-saving {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
@@ -334,129 +334,12 @@ body {
 }
 
 /* FIRST LEFT STAR */
-.first-left-star {
+.left-star {
   display: flex;
   flex-direction: row;
 }
 
-.build-system {
-  margin-bottom: 16px;
-  margin-top: -30px;
-  margin-left: 16px;
-  width: 359px;
-  height: 64px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-/* SECOND LEFT STAR */
-.second-left-star {
-  display: flex;
-  flex-direction: row;
-}
-
-.schedule {
-  margin-bottom: 16px;
-  margin-top: -30px;
-  margin-left: 16px;
-  width: 359px;
-  height: 32px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-/* THIRD LEFT STAR */
-.third-left-star {
-  display: flex;
-  flex-direction: row;
-  margin-top: -25px;
-}
-
-.help-culture {
-  margin-bottom: 16px;
-  margin-top: -30px;
-  margin-left: 16px;
-  width: 359px;
-  height: 64px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-/* FOURTH LEFT STAR */
-.fourth-left-star {
-  display: flex;
-  flex-direction: row;
-}
-
-.create-card {
-  margin-bottom: 16px;
-  margin-top: -30px;
-  margin-left: 16px;
-  width: 359px;
-  height: 64px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-/* FIFTH LEFT STAR */
-.fifth-left-star {
-  display: flex;
-  flex-direction: row;
-}
-
-.set-expenses {
-  margin-bottom: 16px;
-  margin-top: -30px;
-  margin-left: 16px;
-  width: 359px;
-  height: 64px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-/* SIXTH LEFT STAR */
-.sixth-left-star {
-  display: flex;
-  flex-direction: row;
-}
-
-/* SAVE EXPENSES STYLE */
-.save-expenses {
+.features-text {
   margin-bottom: 16px;
   margin-top: -30px;
   margin-left: 16px;
@@ -609,13 +492,13 @@ body {
   margin-bottom: 48.02px;
 }
 
-/* FIRST GREEN STAR */
-.first-green-star {
+/* RIGHT GREEN STAR */
+.right-star {
   display: flex;
   flex-direction: row;
 }
 
-.get-activities {
+.characteristics-text {
   margin-left: 16.83px;
   margin-bottom: 16px;
   margin-top: -30px;
@@ -632,97 +515,6 @@ body {
   flex-grow: 0;
 }
 
-/* SECOND GREEN STAR */
-.second-green-star {
-  display: flex;
-  flex-direction: row;
-}
-
-.understand-works {
-  margin-left: 16.83px;
-  margin-bottom: 16px;
-  margin-top: -30px;
-  width: 359px;
-  height: 64px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-/* THIRD GREEN STAR */
-.third-green-star {
-  display: flex;
-  flex-direction: row;
-}
-
-.save-birthdays {
-  margin-left: 16.83px;
-  margin-bottom: 16px;
-  margin-top: -30px;
-  width: 359px;
-  height: 64px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-/* FOURTH GREEN STAR */
-.fourth-green-star {
-  display: flex;
-  flex-direction: row;
-}
-
-.earn-challenges {
-  margin-left: 16.83px;
-  margin-bottom: 16px;
-  margin-top: -30px;
-  width: 359px;
-  height: 64px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-/* FIFTH GREEN STAR */
-.fifth-green-star {
-  display: flex;
-  flex-direction: row;
-}
-
-.customize-account {
-  margin-left: 16.83px;
-  margin-bottom: 16px;
-  margin-top: -30px;
-  width: 359px;
-  height: 64px;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  color: #000000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
 
 /* BOTTOM CONTAINER */
 .bottom-container {
@@ -778,11 +570,61 @@ body {
   cursor: pointer;
 }
 
+
+
+
+/* MEDIA QUERIES */
 /* Mobile responsive CSS */
 
-@media screen and (max-width: 412px) {
-  body {
+@media screen and (max-width: 800px) {
+  /* body {
     overflow-x: visible;
+  } */
+
+  /* HERO TEXT STYLES */
+  .easier-saving {  
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    font-style: normal;
+    line-height: 64px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    /* margin-top: 131px; */
+  }
+  
+  /* PARAGRAPH STYLE */
+  .kids {
+    width: 311px;
+    height: 56px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 32px;
+    margin-bottom: 28px;
+    margin-right: 32px;
+    /* margin-top: 10px; */
+  }
+  
+  /* GET IT FIRST BUTTON  */
+  .btn {
+    /* margin-left: 120px; */
+    background: #fde016;
+    border-radius: 34px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    font-size: 14px;
+    padding: 16px 25px 16px 25px;
+    border: solid #fde016 2px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 32px;
+    margin-right: 192px;
   }
 
   #main {
@@ -798,14 +640,17 @@ body {
     margin-top: 56px;
   }
 
+/* MIDDLE DISPLAY ORIENTATION */
   .mid {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin-top: 140px;
+    margin-top: 67px;
   }
 
+
+  /* Shared Parent and Child display directions */
   .parent-iphone, .child-iphone {
     flex-direction: column;
     width: 100%;
@@ -823,6 +668,17 @@ body {
   .features{
     margin-bottom: 0px;
   }
+
+  .star > img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .parent-btn, .star {
+    margin-left: 32px;
+  }
+
+
 /* CHILD */
   .child-iphone {
     margin-top: 120px;
@@ -834,4 +690,30 @@ body {
     margin-top: 100px;
   }
 
+  .green-star > img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .beneficiaries-btn, .green-star {
+    margin-left: 32px;
+  }
+
+  /* All Text Displayed for Features and Characteristics */
+  .features-text, .characteristics-text {
+    margin-bottom: 16px;
+    margin-top: -20px;
+    margin-left: 16px;
+    width: 271px;
+    height: 48px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
 }
