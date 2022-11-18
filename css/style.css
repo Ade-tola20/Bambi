@@ -15,7 +15,7 @@ body {
   /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
   max-width: 100%;
   max-height: 100%;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 /* BAMBI LOGO */
@@ -41,7 +41,7 @@ body {
   font-size: 75px;
   font-style: normal;
   line-height: 112px;
-  margin-left: 120px;
+  /* margin-left: 120px; */
   margin-bottom: 0;
   /* margin-top: 131px; */
 }
@@ -53,13 +53,13 @@ body {
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
-  margin-left: 120px;
+  /* margin-left: 120px; */
   margin-top: 10px;
 }
 
 /* GET IT FIRST BUTTON  */
 .btn {
-  margin-left: 120px;
+  /* margin-left: 120px; */
   background: #fde016;
   border-radius: 34px;
   font-family: "Rubik", sans-serif;
@@ -78,7 +78,9 @@ body {
   display: flex;
   flex-direction: row;
   margin-bottom: 100px;
-  max-width: 90%;
+  margin-left: 120px;
+  margin-right: 120px;
+  /* max-width: 90%; */
 }
 
 /* TOUCH YELLOW STYLE */
@@ -87,6 +89,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-left: -50px;
+  margin-bottom: 120px;
 }
 
 /* FIRST YELLOW TOUCH STYLE */
@@ -102,6 +105,7 @@ body {
   width: 20px;
   filter: blur(77px);
   transform: rotate(25.54deg);
+  /* margin-left: -24px; */
 }
 
 /* PHONE STYLE */
@@ -109,7 +113,7 @@ body {
 .phone {
   display: flex;
   flex-direction: row;
-  margin-top: -800px;
+  margin-top: -850px;
 }
 
 /* HOME PHONE STYLE */
@@ -123,6 +127,7 @@ body {
   border-radius: 12.2705px;
   transform: rotate(4deg);
 }
+
 
 /* PERSONAL PHONE STYLE */
 .personal-phone {
@@ -292,7 +297,6 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  /* width: 90%; */
 }
 
 /* PARENT IPHONE STYLE */
@@ -772,4 +776,62 @@ body {
   padding: 24px 48px 24px 48px;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* Mobile responsive CSS */
+
+@media screen and (max-width: 412px) {
+  body {
+    overflow-x: visible;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 100%; /* The width is 100%, when the viewport is 500px or smaller */
+    /* flex-direction: column; */
+  }
+
+  .second-row{
+    order: 2;
+    margin-top: 56px;
+  }
+
+  .mid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 140px;
+  }
+
+  .parent-iphone, .child-iphone {
+    flex-direction: column;
+    width: 100%;
+  }
+
+/* PARENT */
+  .parent-iphone {
+    margin-top: 100px;
+  }
+
+  .parent-btn {
+    margin-top: 0px;
+  }
+
+  .features{
+    margin-bottom: 0px;
+  }
+/* CHILD */
+  .child-iphone {
+    margin-top: 120px;
+    margin-bottom: 115px;
+  }
+
+  .green-background {
+    order: 2;
+    margin-top: 100px;
+  }
+
 }
