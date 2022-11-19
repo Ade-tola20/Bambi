@@ -470,6 +470,7 @@ body {
 
   /* HERO TEXT STYLES */
   .easier-saving {  
+    max-width: 400px;
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     font-size: 44px;
@@ -517,7 +518,8 @@ body {
   #main {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     width: 100%; /* The width is 100%, when the viewport is 500px or smaller */
     /* flex-direction: column; */
   }
@@ -645,5 +647,14 @@ body {
   /* BOTTOM CONTAINER */
   .bottom-container {
     margin: 0px;
+  }
+
+  .join {
+    font-size: 44px;
+    line-height: 64px;
+  }
+
+  .bambi-btn {
+    font-size: 14px;
   }
 }
