@@ -7,6 +7,9 @@
     <!-- CSS LINK -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Link to Javascript -->
+    <script src="js/index.js" defer></script>
+
     <!-- FONT AWEESOME LINK -->
     <script
       src="https://kit.fontawesome.com/acfce6f1e6.js"
@@ -39,7 +42,7 @@
         <p class="kids">Teach your kids to earn and save with Bambi</p>
 
         <div class="get-btn">
-          <a href="#" class="btn">
+          <a href="#" class="btn myBtn">
             <i class="fa-solid fa-circle-plus"></i> Get an Invite
           </a>
         </div>
@@ -265,10 +268,20 @@
       </div>
 
       <div class="bambi-centre">
-        <a href="#" class="bambi-btn">
+        <a href="#" class="bambi-btn myBtn">
           <img src="images/Send.png" alt="" class="paper"> Get Invited
         </a>
       </div>
     </div>
+
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <iframe style="border:none;width:100%;" height="540px" src="https://notionforms.io/forms/bambi-invite-form"></iframe>
+      </div>
+    
+    </div>    
   </body>
 </html>
